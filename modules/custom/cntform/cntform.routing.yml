@@ -1,0 +1,14 @@
+cntform.content:
+  path: '/cntform'
+  defaults:
+    _title: 'Contact Form'
+    _controller: '\Drupal\cntform\Controller\ContactFormController::content'
+  requirements:
+    _permission: 'access content'
+# cntform.content:
+#   path: '/cntform'
+#   defaults:
+#     _title: 'Contact Form'
+#     _form: '\Drupal\cntform\Form\ContactForm::buildForm'
+#   requirements:
+#     _permission: 'access content'
